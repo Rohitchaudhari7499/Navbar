@@ -1,0 +1,22 @@
+.ver-nav{
+    list-style-type:none;
+    width: 200px;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+.ver-nav a{
+    display:block ;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: blue;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+.ver-nav a:hover{
+    background-color: brown;
+    color: black;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

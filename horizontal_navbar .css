@@ -1,0 +1,30 @@
+.hor-nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+
+}
+.hor-nav ul{
+    list-style-type: none;
+    background-color:palevioletred;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.hor-nav li{
+    display: inline-block;
+    background-color: white;
+}
+.hor-nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 12px 30px;
+    /* margin-top:7px ;
+    margin-bottom:7px; */
+    background-color: goldenrod;
+}

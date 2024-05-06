@@ -1,0 +1,26 @@
+ul.res-nav{
+    list-style-type: none;
+    background-color:hotpink;
+    margin: 0;
+    padding: o;
+    overflow: hidden;
+}
+ul.res-nav li{
+    float: left;
+}
+ul.res-nav a{
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul.res-nav li.right{
+    float: right;
+}
+@media screen and (max-width:600px){
+    ul.res-nav li,ul.res-nav li.right{
+        float: none;
+    }
+}
